@@ -1,0 +1,71 @@
+{
+    "name": "Yong Gao",
+    "contacts": {
+        "phone": "(206) 427-8867",
+        "email": "yonggao1222@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/yong-gao/"
+    },
+    "headline": "Hardworking college student with 2 years of professional experience in teaching, providing an inspiring learning environment, cultural diversity embracing, strong social skills, and a great sense of empathy - looking for career experience in project management.",
+    "experience": [
+        {
+            "title": "Teacher",
+            "sub_title": "New Life Montessori",
+            "type": "Full-time",
+            "duration": "Aug 2017 - Aug 2018",
+            "location": "Newcastle, Washington, United States",
+            "description": "Weekly course planning, Lesson demonstration, classroom monitoring 20+ students, monitoring students study progress daily, communicating with parents."
+        },
+        {
+            "title": "Teacher",
+            "sub_title": "Montesorri International School of Bellevue",
+            "type": "Internship",
+            "duration": "Aug 2016 - Jun 2017",
+            "location": "Bellevue, Washington, United States",
+            "description": "Weekly course planning, making class material with limited budget, presenting lessons, tracking students learning progress daily, communicating with parents, maintaining 20+ preschool students aged from 3-6 years old."
+        }
+    ],
+    "education": [
+        {
+            "title": "California State University - East Bay",
+            "sub_title": "Bachelor's degrees, Business Administration: Information Technology Management Concentration",
+            "duration": "2021 - 2023"
+        },
+        {
+            "title": "Diablo Valley College",
+            "sub_title": "Associate of Science - Business Administration, General",
+            "gpa": "4.0",
+            "duration": "2019 - 2021"
+        },
+        {
+            "title": "University of Science and Technology Beijing",
+            "sub_title": "Associate's degree, Business Administration",
+            "duration": "2016 - 2018"
+        },
+        {
+            "title": "Montessori Teacher Preparation of Washington",
+            "sub_title": "Montessori Teacher Diploma, Early Childhood Education and Teaching",
+            "duration": "2015 - 2017"
+        }
+    ],
+    "licACerts": [
+        {
+            "title": "Google Project Management: Professional Certificate (in-progress)",
+            "sub_title": "Google",
+            "duration": "Issued Dec 2021",
+            "description": "Credential ID ZHKKLTY5C5QP"
+        }
+    ],
+    "skills": [
+        "Project Management",
+        "Teaching",
+        "Communication",
+        "Agile Project Management",
+        "Software Development Life Cycle",
+        "Microsoft Office",
+        "Python"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ]
+}
