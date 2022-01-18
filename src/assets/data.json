@@ -8,6 +8,13 @@
     "headline": "Hardworking college student with 2 years of professional experience in teaching, providing an inspiring learning environment, cultural diversity embracing, strong social skills, and a great sense of empathy - looking for career experience in project management.",
     "experience": [
         {
+            "title": "Teacher Assistant / Tutor",
+            "sub_title": "Diablo Valley College - Computer Literacy",
+            "type": "Part-time",
+            "duration": "Jan 2021 - Present",
+            "location": "Pleasant Hill, California, United States"
+        },
+        {
             "title": "Teacher",
             "sub_title": "New Life Montessori",
             "type": "Full-time",
@@ -28,23 +35,27 @@
         {
             "title": "California State University - East Bay",
             "sub_title": "Bachelor's degrees, Business Administration: Information Technology Management Concentration",
-            "duration": "2021 - 2023"
+            "duration": "2021 - 2023",
+            "location": "Hayward, California, United States"
         },
         {
             "title": "Diablo Valley College",
             "sub_title": "Associate of Science - Business Administration, General",
             "gpa": "4.0",
-            "duration": "2019 - 2021"
+            "duration": "2019 - 2021",
+            "location": "Pleasant Hill, California, United States"
         },
         {
             "title": "University of Science and Technology Beijing",
-            "sub_title": "Associate's degree, Business Administration",
-            "duration": "2016 - 2018"
+            "sub_title": "Associate's degree (online), Business Administration",
+            "duration": "2016 - 2018",
+            "location": "Beijing, China"
         },
         {
             "title": "Montessori Teacher Preparation of Washington",
             "sub_title": "Montessori Teacher Diploma, Early Childhood Education and Teaching",
-            "duration": "2015 - 2017"
+            "duration": "2015 - 2017",
+            "location": "Kent, Washington, United States"
         }
     ],
     "licACerts": [
@@ -67,5 +78,6 @@
     "languages": [
         "English",
         "Chinese"
-    ]
+    ],
+    "note": "In my free time, I'm either exploring Hunan cuisines around my area, or go for a hike in the nature. On the flip side, I can talk for hours about the TV series 'Yellowstone' and '1883'."
 }

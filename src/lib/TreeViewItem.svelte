@@ -12,11 +12,11 @@
             <div>
                 <span>{item.sub_title}</span>
                 {#if item.type}
-                    - <span>{item.type}</span>
+                    • <span>{item.type}</span>
                 {/if}
 
                 {#if item.gpa}
-                    - <span>GPA: {item.gpa}</span>
+                    • <span>GPA: {item.gpa}</span>
                 {/if}
             </div>
         {/if}
@@ -69,6 +69,19 @@
         @apply bg-slate-400 rounded-full top-1/2;
     }
 
+    @media print {
+        div.treeview:nth-child(odd) > div::after {
+            content: "•";
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 0;
+            right: 13px;
+            font-size: 4rem;
+            color: #e2e8f0;
+        }
+    }
+
     div.treeview:nth-child(even) > div {
         @apply pl-6;
     }
@@ -89,5 +102,18 @@
         height: var(--bullet-size);
         transform: translateY(-50%);
         @apply bg-slate-400 rounded-full top-1/2;
+    }
+
+    @media print {
+        div.treeview:nth-child(even) > div::after {
+            content: "•";
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 0;
+            left: -13px;
+            font-size: 4rem;
+            color: #e2e8f0;
+        }
     }
 </style>

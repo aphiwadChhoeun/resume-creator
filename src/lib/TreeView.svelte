@@ -4,7 +4,13 @@
 </script>
 
 <div class="my-2">
-    <h3 class="text-lg font-bold">{title}</h3>
+    <div class="flex flex-row">
+        <slot name="icon"></slot>
+
+        <h3 class="text-lg">
+            {title}
+        </h3>
+    </div>
     <div class="treeview flex flex-col">
         {#each data as item}
             <slot {item} />

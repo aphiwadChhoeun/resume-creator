@@ -4,7 +4,11 @@
 </script>
 
 <div>
-    <h3 class="text-lg font-bold">{title}</h3>
+    <div class="flex flex-row">
+        <slot name="icon" />
+
+        <h3 class="text-lg">{title}</h3>
+    </div>
     <div class="flex flex-col">
         {#each data as item}
             <slot {item} />
