@@ -8,11 +8,29 @@
     "headline": "Hardworking college student with 2 years of professional experience in teaching, providing an inspiring learning environment, cultural diversity embracing, strong social skills, and a great sense of empathy - looking for career experience in project management.",
     "experience": [
         {
+            "title": "Secretary (volunteer)",
+            "sub_title": "Information Technology Management Club, CSU",
+            "type": "Part-time",
+            "duration": "Sep 2022 - Present",
+            "location": "Hayward, California, United States",
+            "description": [
+                "Keep a record of all proceedings, actions, and meetings of members, including the recording of votes and minutes.",
+                "Give due notice of all meetings of members.",
+                "Ensure that a current list of all members is kept at the Business Office.",
+                "Writing and sending official thank you notes to speakers, presenters, and sponsors.",
+                "Drafting meeting agendas."
+            ]
+        },
+        {
             "title": "Teacher Assistant / Tutor",
             "sub_title": "Diablo Valley College - Computer Literacy",
             "type": "Part-time",
-            "duration": "Jan 2021 - Present",
-            "location": "Pleasant Hill, California, United States"
+            "duration": "Jan 2021 - May 2022",
+            "location": "Pleasant Hill, California, United States",
+            "description": [
+                "Managed Computer Literacy Course lab assignments and graded homework.",
+                "Tutored students."
+            ]
         },
         {
             "title": "Teacher",

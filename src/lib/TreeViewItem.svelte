@@ -1,5 +1,7 @@
 <script>
     export let item = {};
+
+    console.log(typeof item.description)
 </script>
 
 <div class="treeview flex flex-row odd:text-right even:justify-end">
@@ -35,7 +37,15 @@
 
         {#if item.description}
             <div>
-                {item.description}
+                {#if typeof item.description === 'string'}
+                    {item.description}
+                {:else}
+                    <ul>
+                        {#each item.description as item}
+                            <li>- {item}</li>
+                        {/each}
+                    </ul>
+                {/if}
             </div>
         {/if}
     </div>
@@ -56,7 +66,7 @@
         top: 0;
         right: -2px;
         height: 100%;
-        @apply border-r-4;
+        @apply border-r-4 border-green-200;
     }
 
     div.treeview:nth-child(odd) > div::after {
@@ -66,7 +76,7 @@
         width: var(--bullet-size);
         height: var(--bullet-size);
         transform: translateY(-50%);
-        @apply bg-slate-400 rounded-full top-1/2;
+        @apply bg-lime-400 rounded-full top-1/2;
     }
 
     @media print {
@@ -91,7 +101,7 @@
         position: absolute;
         left: -2px;
         height: 100%;
-        @apply border-l-4 top-0;
+        @apply border-l-4 top-0 border-green-200;
     }
 
     div.treeview:nth-child(even) > div::after {
@@ -101,7 +111,7 @@
         width: var(--bullet-size);
         height: var(--bullet-size);
         transform: translateY(-50%);
-        @apply bg-slate-400 rounded-full top-1/2;
+        @apply bg-green-400 rounded-full top-1/2;
     }
 
     @media print {
