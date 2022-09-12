@@ -3,7 +3,7 @@
     export let data = [];
 </script>
 
-<div class="my-2">
+<div class="my-4">
     <div class="flex flex-row">
         <slot name="icon"></slot>
 

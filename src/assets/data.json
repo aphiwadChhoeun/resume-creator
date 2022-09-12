@@ -78,10 +78,22 @@
     ],
     "licACerts": [
         {
-            "title": "Google Project Management: Professional Certificate (in-progress)",
+            "title": "Project Planning: Putting It All Together",
             "sub_title": "Google",
-            "duration": "Issued Dec 2021",
-            "description": "Credential ID ZHKKLTY5C5QP"
+            "duration": "Issued Aug 2022",
+            "link": "https://www.coursera.org/account/accomplishments/certificate/FJZP84BRWBCA"
+        },
+        {
+            "title": "Project Initiation: Starting a Successful Project",
+            "sub_title": "Google",
+            "duration": "Issued Jul 2022",
+            "link": "https://www.coursera.org/account/accomplishments/certificate/CPL5W4ZJPHEX"
+        },
+        {
+            "title": "Foundations of Project Management",
+            "sub_title": "Google",
+            "duration": "Issued Jan 2022",
+            "link": "https://www.coursera.org/account/accomplishments/certificate/ZHKKLTY5C5QP"
         }
     ],
     "skills": [

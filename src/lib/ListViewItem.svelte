@@ -32,9 +32,9 @@
         </div>
     {/if}
 
-    {#if item.description}
+    {#if item.link}
         <div>
-            {item.description}
+            <a href={item.link} target="_blank" rel="noopener">Show Credential</a>
         </div>
     {/if}
 </div>
